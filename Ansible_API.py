@@ -5,7 +5,6 @@ import json
 
 class clsinfo(restful.Resource):     
 
-
     def post(self):
 
         self.data = request.get_json()
